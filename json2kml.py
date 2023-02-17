@@ -10,7 +10,7 @@ st.title('JSON to KML Converter')
 
 st.sidebar.image('./logo.png', width = 260)
 st.sidebar.markdown('#')
-st.sidebar.write('This application genertes an approximation of the flight trajectory based on the JSON file.')
+st.sidebar.write('This application generates an approximation of the flight trajectory as KML based on the JSON file.')
 st.sidebar.write('If you have any questions regarding the application, please contact us at support@wingtra.com.')
 st.sidebar.markdown('#')
 st.sidebar.info('This is a prototype application. Wingtra AG does not guarantee correct functionality. Use with discretion.')
@@ -83,7 +83,7 @@ if uploaded:
     
     fp = open(fname, 'rb')
     st.download_button(
-        label="Download Data",
+        label="Download KML",
         data=fp,
         file_name=fname,
         mime='application/kml',
