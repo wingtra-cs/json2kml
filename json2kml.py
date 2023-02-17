@@ -6,7 +6,7 @@ import simplekml
 
 st.set_page_config(layout="wide")
 
-st.title('Flight Trigger Counter')
+st.title('JSON to KML Converter')
 
 st.sidebar.image('./logo.png', width = 260)
 st.sidebar.markdown('#')
