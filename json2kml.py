@@ -17,7 +17,7 @@ st.sidebar.info('This is a prototype application. Wingtra AG does not guarantee 
 
 # Upload button for JSON
 
-uploaded_json = st.file_uploader('Please Select Project JSON file in the DATA folder.', accept_multiple_files=False)
+uploaded_json = st.file_uploader('Please Select the Project JSON file in the DATA folder.', accept_multiple_files=False)
 uploaded = False
 
 if uploaded_json is not None:
